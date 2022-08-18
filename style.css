@@ -1,5 +1,8 @@
 body {
     font-family: Bahnschrift;
+    background: fixed;
+    background-image: url(Compass-01.png);
+    background-repeat:no-repeat;
 }
 
 ul {
