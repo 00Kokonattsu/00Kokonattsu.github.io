@@ -1,12 +1,50 @@
+html{
+    scroll-behavior:smooth;
+}
 body {
     font-family: Bahnschrift;
-    background: fixed;
+    background:fixed;
     background-image: url(Compass-01.png);
     background-repeat:no-repeat;
+    vertical-align: middle;
+    font-size: 14pt;
 }
 
-ul {
-    list-style-type: none;
+.purple-gradient {
+    background: -webkit-linear-gradient(180deg, rgba(81,61,82,1) 0%, rgba(243,184,248,1) 0%, rgba(26,23,151,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 16px (202deg, rgba(81,61,82,1) 0%, rgba(243,184,248,1) 0%, rgba(26,23,151,1) 100%);
+}
+
+.logo {
+    display: inline-block;
+}
+
+img {
+    border-radius: 4px;
+}
+
+teks {
+    opacity: 60%;
+}
+
+button {
+    font-size: 14pt;
+    font-family: Bahnschrift;
+    text-decoration: none; 
+    background-color: white;
+    border: 2px solid grey;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigasi {
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -17,26 +55,32 @@ ul {
     width: 100%;
 }
 
-li {
+.isi-navigasi{
     float: left;
-}
-
-li a {
     display: block;
     color: white;
     text-align: center;
     padding: 20px 25px;
     text-decoration: none;
 }
-
-li a:hover {
+.isi-navigasi:hover {
     background-color: white;
     color: purple;
-    transition: ease-in .25s;
+    transition: ease-in .25s, ease-out .25s;
+}
+/* Membuat carousel atau button */
+.active {
+    background-color: white;
+    color: purple;
 }
 
-.logo {
-    display: inline-block;
+.melayang:hover {
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: all 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
 }
 
 /* ul {
