@@ -10,22 +10,14 @@ body {
     font-size: 14pt;
 }
 
-.purple-gradient {
-    background: -webkit-linear-gradient(180deg, rgba(81,61,82,1) 0%, rgba(243,184,248,1) 0%, rgba(26,23,151,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 16px (202deg, rgba(81,61,82,1) 0%, rgba(243,184,248,1) 0%, rgba(26,23,151,1) 100%);
-}
-
-.logo {
-    display: inline-block;
-}
-
 img {
     border-radius: 4px;
 }
 
 teks {
+    font-family: Bahnschrift;
+    vertical-align: middle;
+    font-size: 14pt;
     opacity: 60%;
 }
 
@@ -42,6 +34,22 @@ button {
 
 a {
     text-decoration: none;
+}
+
+putih {
+    color: white;
+}
+
+.purple-gradient {
+    background: -webkit-linear-gradient(180deg, rgba(81,61,82,1) 0%, rgba(243,184,248,1) 0%, rgba(26,23,151,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 16px (202deg, rgba(81,61,82,1) 0%, rgba(243,184,248,1) 0%, rgba(26,23,151,1) 100%);
+}
+
+.logo {
+    display: inline-block;
 }
 
 .navigasi {
